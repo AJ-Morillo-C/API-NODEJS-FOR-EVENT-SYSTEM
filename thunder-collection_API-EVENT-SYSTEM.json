@@ -1,0 +1,276 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "API-EVENT-SYSTEM",
+    "collectionId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+    "dateExported": "2024-06-04T01:50:12.546Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "68d519c0-47bf-43ea-9fed-5b78496bbb90",
+            "name": "EVENT",
+            "containerId": "",
+            "created": "2024-05-28T17:33:25.980Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "4c54c70d-75af-4935-a388-d9b5ad2a5bcd",
+            "name": "INSCRIPTION",
+            "containerId": "",
+            "created": "2024-06-01T02:26:53.157Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "fb9c6eb8-aacb-4ca4-b671-b79659b0f014",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "68d519c0-47bf-43ea-9fed-5b78496bbb90",
+            "name": "Create",
+            "url": "localhost:5000/api/events",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2024-05-28T17:35:02.358Z",
+            "modified": "2024-06-04T01:27:41.827Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"location\": \"\",\n  \"date\": \"\",\n  \"time\": \"\",\n  \"organizer\": {\n    \"name\": \"\",\n    \"email\": \"@email.com\",\n    \"phone\": \"\"\n  },\n  \"type\": \"\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "26e6d69e-5cb3-4de4-964e-f8c848392e16",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "68d519c0-47bf-43ea-9fed-5b78496bbb90",
+            "name": "Read All",
+            "url": "localhost:5000/api/events",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-28T17:33:42.691Z",
+            "modified": "2024-06-03T23:18:17.541Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "d6d5bfea-ae69-4dd5-bc8e-c299e8cbbbc5",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "68d519c0-47bf-43ea-9fed-5b78496bbb90",
+            "name": "Read One",
+            "url": "localhost:5000/api/events/:id",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-04T01:09:58.675Z",
+            "modified": "2024-06-04T01:21:08.338Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "37c3c9fd-7860-454f-bc38-13b1d197b65c",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "68d519c0-47bf-43ea-9fed-5b78496bbb90",
+            "name": "Update",
+            "url": "localhost:5000/api/events/:id",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-28T18:00:14.211Z",
+            "modified": "2024-06-04T01:28:02.443Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"location\": \"\",\n  \"date\": \"\",\n  \"time\": \"\",\n  \"organizer\": {\n    \"name\": \"\",\n    \"email\": \"@email.com\",\n    \"phone\": \"\"\n  },\n  \"type\": \"\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cb37ee6c-16bc-433f-8159-d22331959161",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "68d519c0-47bf-43ea-9fed-5b78496bbb90",
+            "name": "Delete",
+            "url": "localhost:5000/api/events/:id",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-05-28T18:03:12.897Z",
+            "modified": "2024-06-04T01:27:52.238Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "2bc507f6-b687-437a-ae71-175a40cbc60d",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "4c54c70d-75af-4935-a388-d9b5ad2a5bcd",
+            "name": "Create",
+            "url": "localhost:5000/api/inscriptions",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-06-01T02:27:08.443Z",
+            "modified": "2024-06-04T01:45:38.234Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"event_id\": \"\",\n  \"registered\": {\n    \"name\": \"\",\n    \"email\": \"@email.com\",\n    \"phone\": \"\"\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cffa724c-b6f9-4aba-8922-234089cab628",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "4c54c70d-75af-4935-a388-d9b5ad2a5bcd",
+            "name": "Read All",
+            "url": "localhost:5000/api/inscriptions/",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-06-01T02:40:48.065Z",
+            "modified": "2024-06-04T01:33:05.255Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "202430ed-1c29-4d08-9564-56de34c4fc49",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "4c54c70d-75af-4935-a388-d9b5ad2a5bcd",
+            "name": "Read One",
+            "url": "localhost:5000/api/inscriptions/:id",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-06-01T02:41:19.356Z",
+            "modified": "2024-06-04T01:47:10.729Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "aa982f7f-ae7f-47bc-b802-f71fc9f72a79",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "4c54c70d-75af-4935-a388-d9b5ad2a5bcd",
+            "name": "Update",
+            "url": "localhost:5000/api/inscriptions/:id",
+            "method": "PUT",
+            "sortNum": 130000,
+            "created": "2024-06-01T02:41:40.100Z",
+            "modified": "2024-06-04T01:46:47.502Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"event_id\": \"\",\n  \"registered\": {\n    \"name\": \"\",\n    \"email\": \"@email.com\",\n    \"phone\": \"\"\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "542f275f-d9e5-4b23-bed1-c54c62a5f27f",
+            "colId": "7a1029f8-a94a-48c9-aa5f-36780ce6edda",
+            "containerId": "4c54c70d-75af-4935-a388-d9b5ad2a5bcd",
+            "name": "Delete",
+            "url": "localhost:5000/api/inscriptions/:id",
+            "method": "DELETE",
+            "sortNum": 140000,
+            "created": "2024-06-01T02:42:58.719Z",
+            "modified": "2024-06-04T01:48:03.561Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        }
+    ],
+    "ref": "eIV1y7Xgq0xZE0SzBFRpQluCVU54XwnE8lZXXw1nWe81EaUex98bj6SD4tob-uvUZYGDJtKKuAzcG3aV4GHPDA"
+}
