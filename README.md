@@ -89,7 +89,7 @@ Una vez importada la coleccion Thunder puede ir probando las peticiones (POST, G
 
 > localhost:5000/inscriptions
 
-### URL al video donde se prueba el funcinamiento de nuestra API RESTfu
- [API Aplicación Web para la Gestión de Eventos con Node.js y MongoDB](https://markdownlivepreview.com/).
+### URL al video donde se prueba el funcinamiento de nuestra API RESTful
+ [API Aplicación Web para la Gestión de Eventos con Node.js y MongoDB - ALI MORILLO & GILHARYTH LUGO](https://youtu.be/587vlGMaH2s).
 
 *Nota:* Se intentó desarrollar el front-end de la aplicación, pero debido a limitaciones de tiempo no se pudo implementar por completo. Actualmente, el proyecto se enfoca en la API RESTful y la base de datos MongoDB.
